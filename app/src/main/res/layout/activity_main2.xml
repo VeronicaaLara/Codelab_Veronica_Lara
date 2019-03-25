@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="105dp"
+            android:text="Verónica Lara de la Torre"
+            android:textColor="@color/purple"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/apuntate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="145dp"
+            android:layout_marginTop="160dp"
+            android:text="contacto"
+            android:textColor="@color/deep_purple"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="228dp"
+            android:text="veronica.lara@escuelaestech.es"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/telefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="290dp"
+            android:text="teléfono: 699678131"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/gitboton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/github"
+            android:layout_gravity="center"
+            android:layout_marginTop="49dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginBottom="225dp"
+            android:background="@color/deep_purple"
+            android:onClick="goGit"
+            android:text="Ir a Github"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/github"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/telefono"
+            android:layout_gravity="center"
+            android:layout_marginTop="21dp"
+            android:layout_marginLeft="50dp"
+            android:text="Github"
+            android:textColor="@color/deep_purple"
+            android:textSize="15dp" />
+
+
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

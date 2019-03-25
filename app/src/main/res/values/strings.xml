@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Codelab</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment1">Hello blank fragment list</string>
+    <string name="hello_blank_fragment2">Hello blank fragment tiles</string>
+    <string name="hello_blank_fragment3">Hello blank fragment card</string>
+</resources>
